@@ -25,4 +25,6 @@ client.on('message', message => {
       message.author.sendEmbed(Embed11)
     }
 }); 
+
+
 client.login('NDM5MTQwNjk1MDAxNzkyNTEy.DcO_ng.7hLxSETvPJVvelEGA7uGpgQBVEM');
