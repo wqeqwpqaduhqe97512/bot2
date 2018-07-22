@@ -9,8 +9,8 @@ const http2 = require('http2');
 
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '_';
-const discord_token = "NDY1OTIwODkyOTk2ODEyODEw.DjZ3VQ.Atyo0Q6p9e4imkNL55VAJQ3xB3I";
+const prefix = '1';
+const discord_token = "NDY1OTIwODkyOTk2ODEyODEw.DjZ7Pw.kuYjOjN-rt3g8kMd-C-sGaUeZcE";
 client.login(discord_token);
 client.on('ready', function() {
  console.log(`Logged in as * [ " ${client.user.username} " ]`);
@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.setGame(`_play`,'https://www.twitch.tv/hix')
+client.user.setGame(`1play`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
